@@ -1,0 +1,213 @@
+* {
+    font-family: cursive;
+    
+}
+
+.light {
+    font-weight: lighter;
+}
+
+.container {
+    display: flex;
+    background-color: lightgrey;
+    padding-bottom: 20%;
+    padding-left: 10%;
+}
+
+.columna1 {
+
+    display:flex;
+    flex-direction: column;
+    flex: 1;
+    max-width: fit-content;
+    
+}
+
+.columna2 {
+    
+    display: flex;
+    flex-direction: column;
+    max-width: fit-content;
+    flex: 3;
+}
+
+
+.nav-links>li {
+    padding-right: 20px;
+    font-weight: bolder;
+}
+
+ul {
+    list-style: none;
+    list-style-type: none;
+}
+
+#livescorebar {
+    margin-left: 10%;
+    flex:1;
+    display: flex;
+    align-items: center;
+    
+}
+
+
+
+.nav {
+    display: flex;
+    align-items: center;
+    height: 70px;
+}
+
+.nav-title {
+    margin-left: 10%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    height: 70px;
+    width: 130px;
+    background-color: red;
+    transform: skewX(-20deg);
+}
+
+#navbar {
+    background-color: black;
+    color: white;
+}
+
+.nav-links {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    height: 49px;
+}
+
+.navbtns {
+    display: flex;
+    font-size: large;
+    height: 35px;
+    width: 35px;
+}
+
+.navbtn {
+    margin: 1px;
+    background-color: black;
+}
+
+.btnimg {
+    height: 34px;
+    width: 34px;
+}
+
+#side-bar1 {
+    background-color: white;
+    border-radius: 30px;
+    width: 230px;
+    height: fit-content;
+    text-align: center;
+    margin-top: 25px;
+}
+
+#sb1title {
+    border-bottom: 3px solid;
+    padding-bottom: 10px;
+    margin-left: 15%;
+    width: 70%;
+    text-align: center;
+}
+
+#side-bar2 {
+    background-color: white;
+    border-radius: 30px;
+    width: 230px;
+    height: fit-content;
+    text-align: center;
+    margin-top: 25px;
+    padding-bottom: 20px;
+}
+
+.sb2button {
+    border: 3px solid black;
+    font-weight: bold;
+    font-size: large;
+    box-shadow: 3px 3px black;
+    padding: 3px 10px;
+}
+
+#signin {
+    background-color: cornflowerblue;
+    color: white;
+}
+
+#side-bar3 {
+    background-color: white;
+    border-radius: 30px;
+    width: 230px;
+    height: fit-content;
+    text-align: center;
+    margin-top: 25px;
+    padding-bottom: 20px;
+}
+
+#subscribe {
+    width: 80%;
+    background-color: blanchedalmond;
+}
+
+.main {
+        background-color: white;
+        display: flex;
+        flex-direction: column;
+        border-radius: 30px;
+        min-width: 350px;
+        max-width: 600px;
+        height: fit-content;
+        text-align: center;
+        margin: 25px;
+        padding-bottom: 10px;
+}
+
+#col2titles {
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+
+#livetitle {
+    color: red;
+}
+
+.team {
+    margin: 0px 50px;
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.teams {
+    
+    height: 35px;
+    margin: 0px 60px;
+    display: flex;
+    justify-content: space-between;
+}
+
+#teamresults {
+    margin: 0px 60px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.grey {
+    color: gray;
+}
+
+.teamimg {
+    width: 100px;
+    height: 100px;
+}
+
+#matchinfo {
+    border-top: 3px solid;
+    width: 75%;
+    margin-left: 12.5%;
+}

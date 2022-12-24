@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+    </style>
+</head>
+<body>
+    <div class="nav" id="livescorebar">
+        <h2 class="light" id="livescoretitle">Live Scores</h2>
+        <ul class="livegames">
+            <li>SJC Ninjas - <span>314</span></li>
+            <li>NS Pirates - <span>159</span></li>
+        </ul>
+        <ul class="livegames">
+            <li>CHI Samurai - <span>0</span></li>
+            <li>TUL Wizards - <span>0</span></li>
+        </ul>
+        <ul class="livegames">
+            <li>BOS Hackers - <span>13</span></li>
+            <li>TYO Youkai - <span>37</span></li>
+        </ul>
+        <ul class="livegames">
+            <li>BOI Knights - <span>5</span></li>
+            <li>SEA Sea Lions - <span>11</span></li>
+        </ul>
+        
+    </div>
+
+    <div class="nav" id="navbar">
+        <h1 class="nav-title">DSNN</h1>
+        <ul class="nav-links">
+            <li>Football</li>
+            <li>Basketball</li>
+            <li>Baseball</li>
+            <li>Baseball</li>
+            <li>Soccer</li>
+            <li>More...</li>
+        </ul>
+        <div class="navbtns">
+            <button class="navbtn">
+                <img class="btnimg" src="./img/dsnn/assets/search-light.png" alt="hamburguerpic"></button>
+            </button>
+            <button class="navbtn">
+                <img class="btnimg" src="./img/dsnn/assets/hamburger-light.png" alt="hamburguerpic"></button>
+            </button>
+            <button class="navbtn">
+                <img class="btnimg" src="./img/dsnn/assets/user-circle-light.png" alt="hamburguerpic"></button>
+            </button>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="columna1">
+            <div id="side-bar1">
+                <h2 id="sb1title" class="light">Top Stories</h2>
+                <p>Ninjas up big in 5th</p>
+                <p>Best sports cities</p>
+                <p>Choi joins Hall of Fame</p>
+                <p>Tournament underway</p>
+                <p>Samurai at Wizards...</p>
+            </div>
+            <div id="side-bar2">
+                <p>Costumize your DSNN</p>
+                <button class="sb2button" id="signin">Sign In</button>
+                <button class="sb2button" id="signup">Sign Up</button>
+            </div>
+            <div id="side-bar3">
+                <p>Never miss a play</p>
+                <button onclick="hidesubbar();" class="sb2button" id="subscribe">Subscribe</button>
+            </div>
+        </div>
+
+        <div class="columna2">
+            <div class="main">
+                <div id="col2titles">
+                    <h1 class="light" id="livetitle">⬤ Live</h1>
+                    <h1 class="light"><span id="leader">Ninjas</span> Leading <span id="loser">Pirates</span></h1>
+                </div>
+                <div class="team" id="col2teams">
+                    <img class="teamimg" src="img/dsnn/assets/sjc-ninjas.png" alt="team1pic">
+                    <h1 class="light">VS</h1>
+                    <img class="teamimg" src="img/dsnn/assets/ns-pirates.png" alt="team2pic">
+                </div>
+                <div class="teams" id="teamlocation">
+                    <h3 class="light">San Jose</h3>
+                    <h3 class="light">Nova Scotia</h3>
+                </div>
+                <div class="teams" id="teamnames">
+                    <h2 id="team1">Ninjas</h2>
+                    <p><span id="minutos">0</span>:<span id="segundos">13</span> remaining</p>
+                    <h2 id="team2">Pirates</h2>
+                </div>
+                <div class="teams" id="teamnames">
+                    <p class="grey">(10 W - 3 L)</p>
+                    <p> 5th period</p>
+                    <p class="grey">(12 W - 2 L)</p>
+                </div>
+                <div id="teamresults">
+                    <h1 onclick="IncreaseScore1();" class="score" id="team1score">314</h1>
+                    <h1 onclick="IncreaseScore2();" class="score" id="team2score">160</h1>
+                </div>
+                <div id="matchinfo">
+                    <p>A conservative match between the two top-perfoming
+                    side by in the Central League Division with a number 1
+                    seed at stake... <a href="#"> get live updates</a></p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
